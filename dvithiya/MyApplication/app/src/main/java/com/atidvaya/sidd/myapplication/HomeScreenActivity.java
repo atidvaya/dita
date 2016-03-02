@@ -17,6 +17,6 @@ public class HomeScreenActivity extends AppCompatActivity {
         String userInfo = intent.getStringExtra("UserID");
 
 
-        Toast.makeText(HomeScreenActivity.this,"Welcome " + userInfo,Toast.LENGTH_SHORT).show();
+        Toast.makeText(HomeScreenActivity.this,"Hi, how are you " + userInfo,Toast.LENGTH_SHORT).show();
     }
 }
